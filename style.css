@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+
+
+   
+}
+.header-container{
+   
+    background: #1F2937;
+    display: flex;
+}
+.header{
+    width: 60rem;
+    background-color: red;
+    display: flex;
+    flex-direction: space-around;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header{
+color: white;
+font-size: x-large;
+font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    display: flex;
+    gap: 33px;
+    list-style: none;
+}
