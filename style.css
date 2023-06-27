@@ -8,24 +8,144 @@ body{
 .header-container{
    
     background: #1F2937;
-    display: flex;
+   
 }
 .header{
-    width: 60rem;
-    background-color: red;
+    width: 65rem;
     display: flex;
     flex-direction: space-around;
     margin-left: auto;
     margin-right: auto;
+    gap: 25rem;
 
+}
+.subheader2{
+    margin-top: 4rem;
+    width: 60rem;
+    display: flex;
+    flex-direction: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 25rem;
+    color:white;
+}
+.subheader{
+    display: flex;
+}
+.image-div{
+    width: 28rem;
+    height: 12rem;
+    margin-left: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.button{
+    /* margin-left: 5rem; */
+    margin-bottom: 29px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
 }
 header{
 color: white;
+padding: 5px;
 font-size: x-large;
 font-family:  Georgia, 'Times New Roman', Times, serif;
 }
+
 ul{
+    color:white;
     display: flex;
     gap: 33px;
     list-style: none;
+}
+a{
+    color: #E5E7EB;
+    list-style: none;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.random-info{
+    width: 68rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+   
+}
+.container1{
+    display: flex;
+    gap: 3em;
+    margin-top: 3rem;
+}
+.image1{
+    width: 10rem;
+    height: 9rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+.quote-div{
+    background-color: #E5E7EB;
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+
+}
+.heading{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph{
+    margin-left: 30rem;
+}
+.footer{
+    background-color:#3882f6;
+    width: 62rem;
+    margin-left: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    gap: 20rem;
+    border-radius: 5px;
+    color: white;
+    padding: 1rem 0rem 1rem 0rem;
+}
+.footer2{
+    margin-top: 6rem;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.button2{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+
 }
